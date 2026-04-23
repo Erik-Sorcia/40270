@@ -1,0 +1,10 @@
+<!ELEMENT proyecto (comando+)>
+<!ELEMENT comando (mostrar | crear | pausa)>
+<!ELEMENT mostrar (#PCDATA)>
+<!ELEMENT crear EMPTY>
+<!ELEMENT pausa EMPTY>
+
+<!ATTLIST crear 
+    nombre CDATA #REQUIRED>
+<!ATTLIST pausa 
+    tiempo CDATA #IMPLIED>

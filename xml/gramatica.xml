@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proyecto SYSTEM "gramatica.dtd">
+
+<proyecto>
+    <comando>
+        <crear nombre="Variable" />
+    </comando>
+
+    <comando>
+        <mostrar>Holaaaaaa</mostrar>
+    </comando>
+
+    <comando>
+        <pausa tiempo="10s" />
+    </comando>
+</proyecto>
